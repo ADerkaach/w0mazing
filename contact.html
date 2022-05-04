@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header__inner">
+        <a class="logo__link" href="index.html" class="logo">
+          <img src="images/logo.svg" alt="logo" class="logo__img">
+        </a>
+        <nav class="menu">
+          <button class="menu__btn">
+            <span></span>
+          </button>
+          <ul class="menu__list">
+            <li class="menu__list-item"><a href="index.html" class="menu__list-link ">Главная</a>
+            </li>
+            <li class="menu__list-item"><a href="shop.html" class="menu__list-link">Магазин</a></li>
+            <li class="menu__list-item"><a href="brand.html" class="menu__list-link">О бренде</a></li>
+            <li class="menu__list-item menu__list-link--active"><a href="contact.html" class="menu__list-link">Контакты</a></li>
+          </ul>
+        </nav>
+        <div class="user-nav">
+          <a href="tel:+380674065412" class="user-nav__link user-nav__phone"> +(380) 674-06-54-12
+          </a>
+          <a href="bag.html" class="user-nav__link">
+            <img src="images/bag.svg" alt="buy icon" class="user-nav__link-img">
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main class="main">
+    <section class="top">
+      <div class="container">
+        <h2 class="top__title title">Контакты</h2>
+        <div class="breadcrumbs">
+          <ul class="breadcrumbs__list">
+            <li class="breadcrumbs__item">
+              <a href="index.html" class="breadcrumbs__link">Главная</a>
+            </li>
+            <li class="breadcrumbs__item">
+              <a href="contact.html" class="breadcrumbs__link">Контакты</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="map">
+      <div class="container">
+        <div id="map"></div>
+      </div>
+    </section>
+    <section class="contact">
+      <div class="container">
+        <div class="contact__inner">
+          <div class="contact__inner-phone">Телефон
+            <a href="tel:+380674065412" class="contact__phone-link"> +(380) 674-06-54-12
+            </a>
+          </div>
+          <div class="contact__inner-mail">E-mail
+            <a href="mailto:hello@womazing.com" class="contact__mail-link">
+              hello@womazing.com
+            </a>
+          </div>
+          <div class="contact__inner-address">Адрес
+            <a href="#" class="contact__address-link">бульвар Лесі Українки 21Б, Київ</a>
+          </div>
+        </div>
+        <form action="#" class="contact__form">
+          <p class="contact__form-title">Напишите нам</p>
+          <div class="contact__form-box">
+            <input type="text" class="contact__form-input" placeholder="Имя">
+            <input type="text" class="contact__form-input" placeholder="E-mail">  
+          </div>
+          <input type="text" class="contact__form-input" placeholder="Телефон">
+          <textarea class="contact__form-textarea" placeholder="Сообщение"></textarea>
+          <button class="contact__form-btn" type="submit">Отправить
+          </button>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <a href="index.html" class="logo">
+          <img src="images/logo.svg" alt="logo" class="logo__img">
+        </a>
+        <nav class="menu">
+          <ul class="menu__list">
+            <li class="menu__list-item"><a href="index.html" class="menu__list-link ">Главная</a></li>
+            <li class="menu__list-item"><a href="shop.html" class="menu__list-link">Магазин</a></li>
+            <li class="menu__list-item"><a href="brand.html" class="menu__list-link">О бренде</a></li>
+            <li class="menu__list-item menu__list-link--active"><a href="contact.html" class="menu__list-link">Контакты</a></li>
+          </ul>
+        </nav>
+        <div class="user-nav">
+          <a href="tel:+380674065412" class="user-nav__link user-nav__phone"> +(380) 674-06-54-12
+          </a>
+          <a href="mailto:hello@womazing.com" class="footer__item-email">
+            hello@womazing.com</a>
+        </div>
+        <div class="footer__info">
+          <p class="footer__info-text">
+            © Все права защищены <br>
+            Политика конфиденциальности <br>
+            Публичная оферта
+          </p>
+          <ul class="footer__list">
+            <li class="footer__list-item"><a href="shop.html" class="footer__list-link ">Пальто</a></li>
+            <li class="footer__list-item"><a href="shop.html" class="footer__list-link">Свитшоты</a></li>
+            <li class="footer__list-item"><a href="shop.html" class="footer__list-link">Кардиганы</a></li>
+            <li class="footer__list-item"><a href="shop.html" class="footer__list-link">Толстовки</a></li>
+          </ul>
+          <div class="footer__info-box">
+            <div class="footer__info-social">
+              <a href="#" class="footer__info-link">
+                <img src="images/instagram.svg" alt="social media">
+              </a>
+              <a href="#" class="footer__info-link">
+                <img src="images/facebook.svg" alt="social media">
+              </a>
+              <a href="#" class="footer__info-link">
+                <img src="images/twitter.svg" alt="social media">
+              </a>
+            </div>
+            <a href="#" class="footer__info-pay">
+              <img src="images/visa-mastercard.png" alt="visa-mastercard">
+            </a>
+          </div>
+        </div>
+      </div>
+  </footer>
+  <script src="https://maps.googleapis.com/maps/api/js?key=&callback=initMap&v=weekly" async></script>
+  <script>
+    let map;
+    function initMap() {
+      map = new google.maps.Map(document.getElementById("map"), {
+        center: { lat: 50.445883, lng: 30.5299167 },
+        zoom: 13,
+        styles: [
+          {
+            "featureType": "administrative",
+            "elementType": "all",
+            "stylers": [
+              {
+                "visibility": "on"
+              }
+            ]
+          },
+          {
+            "featureType": "landscape",
+            "elementType": "all",
+            "stylers": [
+              {
+                "hue": "#ff0300"
+              },
+              {
+                "saturation": -100
+              },
+              {
+                "lightness": 129.33333333333334
+              },
+              {
+                "gamma": 1
+              },
+              {
+                "visibility": "on"
+              }
+            ]
+          },
+          {
+            "featureType": "poi",
+            "elementType": "all",
+            "stylers": [
+              {
+                "hue": "#abff00"
+              },
+              {
+                "saturation": 61.80000000000001
+              },
+              {
+                "lightness": 13.800000000000011
+              },
+              {
+                "gamma": 1
+              },
+              {
+                "visibility": "on"
+              }
+            ]
+          },
+          {
+            "featureType": "road",
+            "elementType": "all",
+            "stylers": [
+              {
+                "visibility": "off"
+              }
+            ]
+          },
+          {
+            "featureType": "road.highway",
+            "elementType": "all",
+            "stylers": [
+              {
+                "visibility": "on"
+              },
+              {
+                "color": "#1fa661"
+              },
+              {
+                "weight": "0.55"
+              }
+            ]
+          },
+          {
+            "featureType": "road.highway",
+            "elementType": "labels.icon",
+            "stylers": [
+              {
+                "visibility": "off"
+              }
+            ]
+          },
+          {
+            "featureType": "road.highway.controlled_access",
+            "elementType": "all",
+            "stylers": [
+              {
+                "visibility": "on"
+              }
+            ]
+          },
+          {
+            "featureType": "road.highway.controlled_access",
+            "elementType": "labels.icon",
+            "stylers": [
+              {
+                "visibility": "off"
+              }
+            ]
+          },
+          {
+            "featureType": "road.arterial",
+            "elementType": "all",
+            "stylers": [
+              {
+                "hue": "#00b7ff"
+              },
+              {
+                "saturation": -31.19999999999996
+              },
+              {
+                "lightness": 2.1803921568627374
+              },
+              {
+                "gamma": 1
+              },
+              {
+                "visibility": "on"
+              }
+            ]
+          },
+          {
+            "featureType": "road.local",
+            "elementType": "all",
+            "stylers": [
+              {
+                "hue": "#00B5FF"
+              },
+              {
+                "saturation": -33.33333333333343
+              },
+              {
+                "lightness": 27.294117647058826
+              },
+              {
+                "gamma": 1
+              },
+              {
+                "visibility": "on"
+              }
+            ]
+          },
+          {
+            "featureType": "transit",
+            "elementType": "all",
+            "stylers": [
+              {
+                "visibility": "on"
+              }
+            ]
+          },
+          {
+            "featureType": "transit.line",
+            "elementType": "all",
+            "stylers": [
+              {
+                "visibility": "off"
+              }
+            ]
+          },
+          {
+            "featureType": "transit.station.airport",
+            "elementType": "all",
+            "stylers": [
+              {
+                "visibility": "on"
+              }
+            ]
+          },
+          {
+            "featureType": "transit.station.bus",
+            "elementType": "all",
+            "stylers": [
+              {
+                "visibility": "off"
+              }
+            ]
+          },
+          {
+            "featureType": "water",
+            "elementType": "all",
+            "stylers": [
+              {
+                "hue": "#00B7FF"
+              },
+              {
+                "saturation": 8.400000000000006
+              },
+              {
+                "lightness": 36.400000000000006
+              },
+              {
+                "gamma": 1
+              }
+            ]
+          }
+        ]
+      });
+    };
+  </script>
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>

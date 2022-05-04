@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="header__inner">
+        <a class="logo__link" href="index.html" class="logo">
+          <img src="images/logo.svg" alt="logo" class="logo__img">
+        </a>
+        <nav class="menu">
+          <button class="menu__btn">
+            <span></span>
+          </button>
+          <ul class="menu__list">
+            <li class="menu__list-item"><a href="index.html" class="menu__list-link ">Главная</a>
+            </li>
+            <li class="menu__list-item menu__list-link--active"><a href="shop.html" class="menu__list-link">Магазин</a></li>
+            <li class="menu__list-item"><a href="brand.html" class="menu__list-link">О бренде</a></li>
+            <li class="menu__list-item"><a href="contact.html" class="menu__list-link">Контакты</a></li>
+          </ul>
+        </nav>
+        <div class="user-nav">
+          <a href="tel:+380674065412" class="user-nav__link user-nav__phone"> +(380) 674-06-54-12
+          </a>
+          <a href="bag.html" class="user-nav__link">
+            <img src="images/bag.svg" alt="buy icon" class="user-nav__link-img">
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main class="main">
+    <section class="top">
+      <div class="container">
+        <h2 class="top__title title">Магазин</h2>
+        <div class="breadcrumbs">
+          <ul class="breadcrumbs__list">
+            <li class="breadcrumbs__item">
+              <a href="index.html" class="breadcrumbs__link">Главная</a>
+            </li>
+            <li class="breadcrumbs__item">
+              <a href="shop.html" class="breadcrumbs__link">Магазин</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class="shop">
+      <div class="container">
+        <button class="shop__main-filter-btn ">
+          <img src="images/filter.svg" alt="">
+        </button>
+        <div class="shop__filter-btn filter">
+          <button class="shop__btn mixitup-control-active" data-filter="all">Все</button>
+          <button class="shop__btn" data-filter=".category-a">Пальто</button>
+          <button class="shop__btn" data-filter=".category-b">Свитшоты</button>
+          <button class="shop__btn" data-filter=".category-c">Кардиганы</button>
+          <button class="shop__btn" data-filter=".category-d">Толстовки</button>
+        </div>
+        <div class="shop__inner">
+          <div class="shop__text">Показано: 9 из 12 товаров</div>
+          <div class="collection__items">
+            <div class="collection__item mix category-c category-d">
+              <img src="images/collection-1.jpg" alt="clothes" class="collection__img">
+              <a href="#" class="collection__item-link">
+                <img src="images/collection.svg" alt="arrow link">
+              </a>
+              <div class="collection__item-info mix category-b">
+                <div class="collection__item-name">Футболка USA</div>
+                <div class="collection__item-price">
+                  <div class="collection__item-old-price">$229
+                  </div>
+                  <div class="collection__item-new-price">$129</div>
+                </div>
+              </div>
+            </div>
+            <div class="collection__item mix ">
+              <img src="images/collection-2.jpg" alt="clothes" class="collection__img">
+              <a href="#" class="collection__item-link">
+                <img src="images/collection.svg" alt="arrow link">
+              </a>
+              <div class="collection__item-info">
+                <div class="collection__item-name">Купальник Glow</div>
+                <div class="collection__item-price">
+                  <div class="collection__item-old-price">$329
+                  </div>
+                  <div class="collection__item-new-price">$119</div>
+                </div>
+              </div>
+            </div>
+            <div class="collection__item mix category-d category-c">
+              <img src="images/collection-3.jpg" alt="clothes" class="collection__img">
+              <a href="product.html" class="collection__item-link">
+                <img src="images/collection.svg" alt="arrow link">
+              </a>
+              <div class="collection__item-info">
+                <div class="collection__item-name">Свитшот Sweet Shot</div>
+                <div class="collection__item-price">
+                  <div class="collection__item-old-price">$520
+                  </div>
+                  <div class="collection__item-new-price">$350</div>
+                </div>
+              </div>
+            </div>
+            <div class="collection__item mix category-d category-c category-b" >
+              <img src="images/collection-4.jpg" alt="clothes" class="collection__img">
+              <a href="#" class="collection__item-link">
+                <img src="images/collection.svg" alt="arrow link">
+              </a>
+              <div class="collection__item-info">
+                <div class="collection__item-name">Футболка USA</div>
+                <div class="collection__item-price">
+                  <div class="collection__item-old-price">$229
+                  </div>
+                  <div class="collection__item-new-price">$129</div>
+                </div>
+              </div>
+            </div>
+            <div class="collection__item mix category-c category-a">
+              <img src="images/collection-5.jpg" alt="clothes" class="collection__img">
+              <a href="#" class="collection__item-link">
+                <img src="images/collection.svg" alt="arrow link">
+              </a>
+              <div class="collection__item-info">
+                <div class="collection__item-name">Купальник Glow</div>
+                <div class="collection__item-price">
+                  <div class="collection__item-old-price">$329
+                  </div>
+                  <div class="collection__item-new-price">$119</div>
+                </div>
+              </div>
+            </div>
+            <div class="collection__item mix category-c  category-a">
+              <img src="images/collection-6.jpg" alt="clothes" class="collection__img">
+              <a href="#" class="collection__item-link">
+                <img src="images/collection.svg" alt="arrow link">
+              </a>
+              <div class="collection__item-info">
+                <div class="collection__item-name">Свитшот Sweet Shot</div>
+                <div class="collection__item-price">
+                  <div class="collection__item-old-price">$520
+                  </div>
+                  <div class="collection__item-new-price">$350</div>
+                </div>
+              </div>
+            </div>
+            <div class="collection__item mix ">
+              <img src="images/collection-7.jpg" alt="clothes" class="collection__img">
+              <a href="#" class="collection__item-link">
+                <img src="images/collection.svg" alt="arrow link">
+              </a>
+              <div class="collection__item-info">
+                <div class="collection__item-name">Футболка USA</div>
+                <div class="collection__item-price">
+                  <div class="collection__item-old-price">$229
+                  </div>
+                  <div class="collection__item-new-price">$129</div>
+                </div>
+              </div>
+            </div>
+            <div class="collection__item mix category-c category-a">
+              <img src="images/collection-8.jpg" alt="clothes" class="collection__img">
+              <a href="#" class="collection__item-link">
+                <img src="images/collection.svg" alt="arrow link">
+              </a>
+              <div class="collection__item-info mix category-a mix category-b">
+                <div class="collection__item-name">Купальник Glow</div>
+                <div class="collection__item-price">
+                  <div class="collection__item-old-price">$329
+                  </div>
+                  <div class="collection__item-new-price">$119</div>
+                </div>
+              </div>
+            </div>
+            <div class="collection__item mix category-a category-c">
+              <img src="images/collection-9.jpg" alt="clothes" class="collection__img">
+              <a href="#" class="collection__item-link">
+                <img src="images/collection.svg" alt="arrow link">
+              </a>
+              <div class="collection__item-info">
+                <div class="collection__item-name">Свитшот Sweet Shot</div>
+                <div class="collection__item-price">
+                  <div class="collection__item-old-price">$520
+                  </div>
+                  <div class="collection__item-new-price">$350</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="shop__text">Показано: 9 из 12 товаров</div>
+          <div class="pagination">
+            <ul class="pagination__list">
+              <li class="pagination__item pagination__item--active"><a href="#" class="pagination__link pagination__link--active">1</a></li>
+              <li class="pagination__item"><a href="#" class="pagination__link">2</a></li>
+            </ul>
+            <a class="pagination__next pagination__arrows" href="#">
+              <img src="images/arrow1.svg" alt="next page arrow">
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <a href="index.html" class="logo">
+          <img src="images/logo.svg" alt="logo" class="logo__img">
+        </a>
+        <nav class="menu">
+          <ul class="menu__list">
+            <li class="menu__list-item"><a href="index.html" class="menu__list-link ">Главная</a></li>
+            <li class="menu__list-item"><a href="shop.html" class="menu__list-link menu__list-link--active">Магазин</a></li>
+            <li class="menu__list-item"><a href="brand.html" class="menu__list-link">О бренде</a></li>
+            <li class="menu__list-item"><a href="contact.html" class="menu__list-link">Контакты</a></li>
+          </ul>
+        </nav>
+        <div class="user-nav">
+          <a href="tel:+380674065412" class="user-nav__link user-nav__phone"> +(380) 674-06-54-12
+          </a>
+          <a href="mailto:hello@womazing.com" class="footer__item-email">
+            hello@womazing.com</a>
+        </div>
+        <div class="footer__info">
+          <p class="footer__info-text">
+            © Все права защищены <br>
+            Политика конфиденциальности <br>
+            Публичная оферта
+          </p>
+          <ul class="footer__list">
+            <li class="footer__list-item"><a href="shop.html" class="footer__list-link ">Пальто</a></li>
+            <li class="footer__list-item"><a href="shop.html" class="footer__list-link">Свитшоты</a></li>
+            <li class="footer__list-item"><a href="shop.html" class="footer__list-link">Кардиганы</a></li>
+            <li class="footer__list-item"><a href="shop.html" class="footer__list-link">Толстовки</a></li>
+          </ul>
+          <div class="footer__info-box">
+            <div class="footer__info-social">
+              <a href="#" class="footer__info-link">
+                <img src="images/instagram.svg" alt="social media">
+              </a>
+              <a href="#" class="footer__info-link">
+                <img src="images/facebook.svg" alt="social media">
+              </a>
+              <a href="#" class="footer__info-link">
+                <img src="images/twitter.svg" alt="social media">
+              </a>
+            </div>
+            <a href="#" class="footer__info-pay">
+              <img src="images/visa-mastercard.png" alt="visa-mastercard">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>
